@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #34AD54;
+    --primary: #0F2B05;
     --secondary: #FF9933;
     --light: #F6FFF2;
     --dark: #263A4F;
@@ -17,6 +17,11 @@
     font-weight: 700;
     transition: .5s;
 }
+
+.custom-bg-navbar {
+    background-color: #0F2B05;
+}
+
 
 .btn-primary,
 .btn-secondary {
@@ -226,7 +231,7 @@
 }
 
 .testimonial-carousel {
-    background: rgba(52, 173, 84, .7);
+    background: rgba(15, 43, 5);
 }
 
 .testimonial-carousel .owl-nav {
@@ -283,12 +288,12 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    background: linear-gradient(rgba(52, 173, 84, 0), rgba(52, 173, 84, 1));
+    background: linear-gradient(rgba(52, 173, 84, 0), rgba(15, 43, 5));
     z-index: 1;
 }
 
 .bg-footer {
-    background: linear-gradient(rgba(52, 173, 84, .7), rgba(52, 173, 84, .7)), url(../img/footer.png) center bottom no-repeat;
+    background: linear-gradient(rgba(15, 43, 57), rgba(15, 43, 5)), url(../img/footer.png) center bottom no-repeat;
     background-size: contain;
 }
 
