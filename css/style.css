@@ -138,7 +138,7 @@
 .about i,
 .service-item i {
     background-image: linear-gradient(var(--primary), var(--secondary));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: .5s;
 }
@@ -226,7 +226,7 @@
 }
 
 .bg-testimonial {
-    background: url(../img/testimonial.jpg) top center no-repeat;
+    background: url(../img/aboutbanner.jpg) top center no-repeat;
     background-size: cover;
 }
 
