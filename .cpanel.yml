@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH=/home/nawirifa/public_html/  # Replace `<username>` with your cPanel username
+  - /bin/cp -r nawirifarms/public_html $DEPLOYPATH
