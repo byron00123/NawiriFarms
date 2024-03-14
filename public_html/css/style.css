@@ -10,6 +10,12 @@
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
     border-radius: 10px; /* Adjust the border radius to your preference */
 }
+link[rel*='icon'] {
+    /* Increase the size */
+    width: 32px;
+    height: 32px;
+    /* Add additional styles as needed */
+}
 
 .btn {
     font-family: 'Roboto', sans-serif;
