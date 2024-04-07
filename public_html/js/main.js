@@ -1,3 +1,4 @@
+require('dotenv').config();
 (function ($) {
     "use strict";
 
@@ -26,7 +27,11 @@
         toggleNavbarMethod();
         $(window).resize(toggleNavbarMethod);
     });
+
     
+    
+
+   
     
     // Back to top button
     $(window).scroll(function () {
